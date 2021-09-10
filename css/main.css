@@ -7,6 +7,9 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  width: 100%;
+}
 h2 {
 justify-content: center;
 font-weight: bold;
@@ -16,16 +19,15 @@ body {
   width: 350px;
   padding: .5em;
   margin-top: .5rem;
-  font-family: "Open" sans-serif;
+  font-family: "Open", sans-serif;
   line-height: 1.5;
 }
 
-section ul {
-  justify-content: space-around;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  align-items: flex-start;
+li {
+  justify-content: space-between;
+  align-items: center;
   display: flex;
+  flex-direction: row;
 }
 
 li img {
@@ -33,17 +35,17 @@ padding: .5rem;
 
 }
 h3 {
-display: flex;
+
 
 }
 
 h4 {
-display: flex;
+
 
 }
 
 p {
-  display: flex;
+
   width: 60%;
 }
 
