@@ -24,12 +24,12 @@ section ul {
   justify-content: space-around;
   justify-content: flex-start;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   display: flex;
 }
 
 li img {
-padding: .1em;
+padding: .5rem;
 
 }
 h3 {
@@ -44,7 +44,7 @@ display: flex;
 
 p {
   display: flex;
-
+  width: 60%;
 }
 
 a {
