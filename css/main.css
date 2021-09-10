@@ -14,29 +14,32 @@ font-weight: bold;
 }
 
 body {
-  padding:
+  width: 350px;
+  padding: 25px;
 }
 
 section ul {
   justify-content: space-around;
   align-items: center;
-  padding: .5rem 1rem .6rem 2rem;
   display: flex;
 }
 
 li img {
-
+padding: 1px;
 
 }
-ul:first-child {
+h3 {
 display: flex;
+
 }
 
-ul:nth-child(2) {
+h4 {
 display: flex;
+
 }
 
-ul:last-child {
+p {
   display: flex;
-  background-color: #000;
+
+
 }
