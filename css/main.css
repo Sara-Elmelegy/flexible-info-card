@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Open sans-serif;
   line-height: 1.5;
 }
 
@@ -8,11 +8,31 @@ html {
   box-sizing: inherit;
 }
 
+h2 {
+justify-content: center;
+font-weight: bold;
+}
+
 section ul {
   justify-content: space-between;
   align-items: center;
+  padding: .5rem 1rem .6rem 2rem;
+  display: flex;
+}
+
+li img {
+
+
+}
+ul:first-child {
+display: flex;
+}
+
+ul:nth-child(2) {
+display: flex;
 }
 
 ul:last-child {
+  display: flex;
   background-color: #000;
 }
