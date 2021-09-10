@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Open sans-serif;
+  font-family: "Open sans-serif";
   line-height: 1.5;
 }
 
@@ -13,8 +13,12 @@ justify-content: center;
 font-weight: bold;
 }
 
+body {
+  padding:
+}
+
 section ul {
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: .5rem 1rem .6rem 2rem;
   display: flex;
