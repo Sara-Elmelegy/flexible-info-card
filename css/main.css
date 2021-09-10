@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+section ul {
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul:last-child {
+  background-color: #000;
+}
