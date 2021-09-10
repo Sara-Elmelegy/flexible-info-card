@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Open sans-serif";
-  line-height: 1.5;
+  background-color: #ccc;
 }
 
 *, *::before, *::after {
@@ -15,7 +14,10 @@ font-weight: bold;
 
 body {
   width: 350px;
-  padding: 25px;
+  padding: .5rem;
+  margin-top: .5rem;
+  font-family: "Open" sans-serif;
+  line-height: 1.5;
 }
 
 section ul {
@@ -41,5 +43,9 @@ display: flex;
 p {
   display: flex;
 
+}
+
+a {
+  background-color: #444;
 
 }
