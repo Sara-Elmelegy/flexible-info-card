@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #ccc;
-  font-family: open, sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
 
@@ -21,8 +21,7 @@ h2 {
 body {
   padding: 4em;
   line-height: 1.5;
-  margin: 1.5rem;
-  margin-top: .1rem;
+  margin: 0;
 }
 
 li {
