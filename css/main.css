@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
   background-color: #ccc;
+  font-family: open, sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -8,23 +10,24 @@ html {
 }
 
 img {
-  width: 100%;
+  width: 5rem;
 }
+
 h2 {
 justify-content: center;
 font-weight: bold;
+align-items: center;
 }
 
 body {
-  width: 350px;
-  padding: .5em;
-  margin-top: .5rem;
+  padding: 4em;
   font-family: "Open", sans-serif;
   line-height: 1.5;
+  margin: 1.5rem;
 }
 
 li {
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -32,24 +35,16 @@ li {
 
 li img {
 padding: .5rem;
-
-}
-h3 {
-
-
-}
-
-h4 {
-
-
 }
 
 p {
-
-  width: 60%;
+  width: 24rem;
 }
 
 a {
   background-color: #444;
+}
 
+hgroup {
+  width: 16rem;
 }
